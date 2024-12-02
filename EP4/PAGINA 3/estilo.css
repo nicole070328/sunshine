@@ -1,0 +1,110 @@
+@font-face {
+    font-family: sole;
+    src: url(fuentes/Milker.otf)
+    }
+  @font-face {
+    font-family: montserrat;
+    src: url(fuentes/Montserrat-Medium.otf);
+
+  }
+
+body {
+    margin: 0;
+    font-family: montserrat;
+    background-image: url(imagenes/—Pngtree—cute\ rainbow\ clouds\ background_1325845.png);
+}
+
+.header {
+    background-color: #ffafd7; 
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    text-align: center;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin: 82px 0; 
+}
+
+nav ul li {
+    text-align: center;
+  flex: 10; 
+  display: flex; 
+  flex-direction:column-reverse; 
+  align-items: flex-end; 
+}
+
+nav a {
+    text-align: center;
+   margin: 10px 20PX;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff66b3; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px;
+}
+.header a{
+    text-align: end;
+    color: black;
+    text-decoration: none;
+}
+
+.borde p{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: sole;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin: 0 0 20px 0;
+}
+
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff66b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 2-4 columnas */
+    gap: 20px; /* Espacio entre productos */
+    padding: 20px;
+}
+
+.productos-caja {
+    background-color: #fff; /* Color de fondo de las tarjetas */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 8px; /* Esquinas redondeadas */
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.productos-caja img {
+    width: 100%; /* Hace que la imagen ocupe el ancho total */
+    border-radius: 8px; /* Esquinas redondeadas en la imagen */
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e0cbd5; /* Color de fondo del pie de página */
+}

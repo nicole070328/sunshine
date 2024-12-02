@@ -1,0 +1,120 @@
+@font-face {
+    font-family: sole;
+    src: url(fuentes/Milker.otf)
+    }
+  @font-face {
+    font-family: montserrat;
+    src: url(fuentes/Montserrat-Medium.otf);
+  }
+
+  .borde{
+    height: 40px; 
+    background-color: #ffafd7; 
+    width: 100%; 
+    position:static;
+    top: 0; 
+    left: 0; 
+    z-index: 1000;
+}
+.borde p{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  
+  }
+
+  body {
+    font-family:montserrat;
+    margin: 30px;
+    padding: 0;
+    width: 100;
+    background-image: url(imagenes/—Pngtree—cute\ rainbow\ clouds\ background_1325845.png);
+    background-size: contain; 
+    background-repeat: none;
+    background-size: cover;
+  }
+
+  header h1{
+    font-family:sole;
+    font-size: 80px;
+    color: #ff66b3;
+    text-align: left; 
+    flex:1 ;
+  }
+  header {
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+    display: flex;
+  }
+
+  nav ul {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin: 82px 0; 
+}
+
+nav ul li {
+  flex: 10; 
+  display: flex; 
+  flex-direction:column-reverse; 
+  align-items: flex-end; 
+}
+
+nav a {
+   margin: 10px 20PX;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff66b3; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px;
+}
+
+.Nosotros h2{
+    text-align: justify;
+    font-size: 50px;
+    font-family: sole;
+}
+
+.Nosotros p{
+    text-align: justify;
+    font-family: montserrat;
+}
+
+.caja img{
+    width: 100%; 
+    height:100%;
+    border-radius: 15px;
+    display: flexbox;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.Vision h2{
+    text-align: justify;
+    font-size: 50px;
+    font-family: sole;
+}
+.Vision p{
+    text-align: justify;
+    font-family: montserrat;
+}
+
+.Mision h2{
+    text-align: justify;
+    font-size: 50px;
+    font-family: sole;
+}
+
+.Mision p{
+    text-align: justify;
+    font-family: montserrat;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffafd7
+  }
